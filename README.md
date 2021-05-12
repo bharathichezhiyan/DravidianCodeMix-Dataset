@@ -8,7 +8,7 @@ If you are using the data or code from this research then please site our paper 
 
 
 
-    @inproceedings{chakravarthi-etal-2021-lre,
+    @article{chakravarthi-etal-2021-lre,
     title = "DravidianCodeMix: Sentiment Analysis and Offensive Language Identification Dataset for Dravidian Languages in Code-Mixed Text",
     author = "Chakravarthi, Bharathi Raja  and
       Priyadharshini, Ruba  and
