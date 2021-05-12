@@ -13,7 +13,7 @@ If you are using the data or code from this research then please site our paper 
     author = "Chakravarthi, Bharathi Raja  and
       Priyadharshini, Ruba  and
       Muralidaran, Vigneshwaran and
-      Jose , Navya and
+      Jose, Navya and
       Suryawanshi, Shardul and
       Sherly, Elizabeth  and
       McCrae, John P
