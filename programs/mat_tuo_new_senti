@@ -1,0 +1,140 @@
+
+Building Model LR...
+{'Mixed_feelings': 1.4945676776822092, 'Negative': 1.4105960264900663, 'Positive': 0.29518530108632485, 'Positive ': 6603.0, 'not-Tamil': 3.519722814498934, 'unknown_state': 1.0526064084170252}
+Training Accuracy: 0.6878439093341411
+Test Accuracy: 0.5427078600636075
+Confusion Matrix:
+[[ 145   95  183    1   21   65]
+ [ 108  233  122    0   16   68]
+ [ 278  226 1601    1  119  278]
+ [   0    0    0    0    0    0]
+ [   9    6   35    0  135   26]
+ [  67   79  178    0   32  275]]
+                precision    recall  f1-score   support
+
+Mixed_feelings       0.24      0.28      0.26       510
+      Negative       0.36      0.43      0.39       547
+      Positive       0.76      0.64      0.69      2503
+     Positive        0.00      0.00      0.00         0
+     not-Tamil       0.42      0.64      0.51       211
+ unknown_state       0.39      0.44      0.41       631
+
+      accuracy                           0.54      4402
+     macro avg       0.36      0.40      0.38      4402
+  weighted avg       0.58      0.54      0.56      4402
+
+
+Building Model SVM...
+{'Mixed_feelings': 1.4945676776822092, 'Negative': 1.4105960264900663, 'Positive': 0.29518530108632485, 'Positive ': 6603.0, 'not-Tamil': 3.519722814498934, 'unknown_state': 1.0526064084170252}
+Training Accuracy: 0.5646170932404463
+Test Accuracy: 0.56860517946388
+Confusion Matrix:
+[[   0    0  510    0    0]
+ [   0    0  547    0    0]
+ [   0    0 2503    0    0]
+ [   0    0  211    0    0]
+ [   0    0  631    0    0]]
+                precision    recall  f1-score   support
+
+Mixed_feelings       0.00      0.00      0.00       510
+      Negative       0.00      0.00      0.00       547
+      Positive       0.57      1.00      0.72      2503
+     not-Tamil       0.00      0.00      0.00       211
+ unknown_state       0.00      0.00      0.00       631
+
+      accuracy                           0.57      4402
+     macro avg       0.11      0.20      0.14      4402
+  weighted avg       0.32      0.57      0.41      4402
+
+
+Building Model MNB...
+{'Mixed_feelings': 1.4945676776822092, 'Negative': 1.4105960264900663, 'Positive': 0.29518530108632485, 'Positive ': 6603.0, 'not-Tamil': 3.519722814498934, 'unknown_state': 1.0526064084170252}
+Training Accuracy: 0.6305719622393862
+Test Accuracy: 0.5940481599273058
+Confusion Matrix:
+[[   2    4  495    3    6]
+ [   1   33  505    1    7]
+ [   0    1 2492    1    9]
+ [   1    0  144   61    5]
+ [   1    4  598    1   27]]
+                precision    recall  f1-score   support
+
+Mixed_feelings       0.40      0.00      0.01       510
+      Negative       0.79      0.06      0.11       547
+      Positive       0.59      1.00      0.74      2503
+     not-Tamil       0.91      0.29      0.44       211
+ unknown_state       0.50      0.04      0.08       631
+
+      accuracy                           0.59      4402
+     macro avg       0.64      0.28      0.28      4402
+  weighted avg       0.59      0.59      0.47      4402
+
+
+Building Model KNN...
+{'Mixed_feelings': 1.4945676776822092, 'Negative': 1.4105960264900663, 'Positive': 0.29518530108632485, 'Positive ': 6603.0, 'not-Tamil': 3.519722814498934, 'unknown_state': 1.0526064084170252}
+Training Accuracy: 0.5572719470947549
+Test Accuracy: 0.455474784189005
+Confusion Matrix:
+[[  31   16  341    0  122]
+ [  30   24  387    2  104]
+ [ 119   60 1750    5  569]
+ [  12   10  150   15   24]
+ [  40   17  387    2  185]]
+                precision    recall  f1-score   support
+
+Mixed_feelings       0.13      0.06      0.08       510
+      Negative       0.19      0.04      0.07       547
+      Positive       0.58      0.70      0.63      2503
+     not-Tamil       0.62      0.07      0.13       211
+ unknown_state       0.18      0.29      0.23       631
+
+      accuracy                           0.46      4402
+     macro avg       0.34      0.23      0.23      4402
+  weighted avg       0.43      0.46      0.42      4402
+
+
+Building Model DT...
+{'Mixed_feelings': 1.4945676776822092, 'Negative': 1.4105960264900663, 'Positive': 0.29518530108632485, 'Positive ': 6603.0, 'not-Tamil': 3.519722814498934, 'unknown_state': 1.0526064084170252}
+Training Accuracy: 0.8864909889444192
+Test Accuracy: 0.5549750113584734
+Confusion Matrix:
+[[  72   59  317   11   51]
+ [  53  126  303    9   56]
+ [ 137  162 1994   34  176]
+ [  12    7   94   79   19]
+ [  41   43  357   18  172]]
+                precision    recall  f1-score   support
+
+Mixed_feelings       0.23      0.14      0.17       510
+      Negative       0.32      0.23      0.27       547
+      Positive       0.65      0.80      0.72      2503
+     not-Tamil       0.52      0.37      0.44       211
+ unknown_state       0.36      0.27      0.31       631
+
+      accuracy                           0.55      4402
+     macro avg       0.42      0.36      0.38      4402
+  weighted avg       0.51      0.55      0.53      4402
+
+
+Building Model RF...
+{'Mixed_feelings': 1.4945676776822092, 'Negative': 1.4105960264900663, 'Positive': 0.29518530108632485, 'Positive ': 6603.0, 'not-Tamil': 3.519722814498934, 'unknown_state': 1.0526064084170252}
+Training Accuracy: 0.9139027714675148
+Test Accuracy: 0.6208541572012721
+Confusion Matrix:
+[[  12   19  457    4   18]
+ [   2   91  434    2   18]
+ [   2   28 2422    7   44]
+ [   0    1  108   90   12]
+ [   1   14  489    9  118]]
+                precision    recall  f1-score   support
+
+Mixed_feelings       0.71      0.02      0.05       510
+      Negative       0.59      0.17      0.26       547
+      Positive       0.62      0.97      0.76      2503
+     not-Tamil       0.80      0.43      0.56       211
+ unknown_state       0.56      0.19      0.28       631
+
+      accuracy                           0.62      4402
+     macro avg       0.66      0.35      0.38      4402
+  weighted avg       0.63      0.62      0.53      4402
+
