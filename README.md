@@ -18,7 +18,6 @@ If you are using the data or code from this research then please site our paper 
       Sherly, Elizabeth  and
       McCrae, John P",
       journal={Language Resources and Evaluation},
-      year={2021},
       publisher={Springer}
     }
 
